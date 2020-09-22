@@ -27,7 +27,7 @@ enable() {
 }
 
 pkgconfig="`arg pkgconfig pkg-config "$@"`"
-bindir="`arg bindir /usr/bin "$@"`"
+bindir="`arg bindir /usr/sbin "$@"`"
 sysconfdir="`arg sysconfdir /etc "$@"`"
 runstatedir="`arg runstatedir /run "$@"`"
 

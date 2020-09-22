@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS =
+CFLAGS = -l /usr/local/include
 EXTRA_CFLAGS = -Wall -Wextra
 DESTDIR =
 
